@@ -1,0 +1,18 @@
+{
+  "name": "@lesenelir/best-next",
+  "version": "0.0.0",
+  "description": "Some best practices for Next.js",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Next.js",
+    "Best Practices",
+    "Pages Router",
+    "App Router"
+  ],
+  "author": "lesenelir <hi@lesenelir.me>",
+  "license": "MIT"
+}
