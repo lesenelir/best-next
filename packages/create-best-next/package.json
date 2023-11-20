@@ -1,0 +1,16 @@
+{
+  "name": "create-best-next",
+  "version": "0.0.1",
+  "description": "some best next.js projects",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "next.js",
+    "best practices"
+  ],
+  "author": "lesenelir <hi@lesenelir.me>",
+  "license": "MIT"
+}
