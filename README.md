@@ -7,3 +7,11 @@ Some best practices for Next.js
 
 - app router
 
+
+#### Todos:
+
+-[ ] Theme switch support 
+
+-[ ] Internation support
+
+-[ ] Form validation
