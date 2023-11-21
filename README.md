@@ -10,7 +10,7 @@ Some best practices for Next.js
 
 #### Todos:
 
--[ ] Theme switch support 
+-[x] Theme switch support 
 
 -[ ] Internation support
 
