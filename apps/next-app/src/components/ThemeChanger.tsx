@@ -9,7 +9,7 @@ export default function ThemeChanger() {
     <>
       <button
         className={`
-          p-2 bg-gray-50 rounded-lg shadow text-black 
+          w-28 p-2 bg-gray-50 rounded-lg shadow text-black 
           focus:ring-1 focus:ring-black focus:ring-opacity-7 hover:bg-gray-100
         `}
         onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}

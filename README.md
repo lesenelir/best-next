@@ -10,8 +10,12 @@ Some best practices for Next.js
 
 #### Todos:
 
--[x] Theme switch support 
+-[x] Theme switch support
 
--[ ] Internation support
+- Install `next-themes` package to add attributes to the HTML tag.
+- Configure the `tailwind.config` file.
+
+-[x] Internation support
+- `next-intl` package
 
 -[ ] Form validation

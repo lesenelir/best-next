@@ -1,6 +1,10 @@
+import { useTranslations } from 'next-intl'
+
+import I18nChanger from '@/components/I18nChanger'
 import ThemeChanger from '@/components/ThemeChanger'
 
 export default function Home() {
+  const t = useTranslations()
 
   return (
     <div
@@ -9,10 +13,11 @@ export default function Home() {
         dark:bg-black dark:text-white
       `}
     >
-      <p>App Router - Hello World</p>
+      <p>{t('homepage.title')}</p>
 
-      <div className={'mt-4'}>
+      <div className={'mt-4 flex flex-row gap-4'}>
         <ThemeChanger/>
+        <I18nChanger/>
       </div>
     </div>
   )
