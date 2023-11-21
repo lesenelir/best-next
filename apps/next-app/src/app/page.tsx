@@ -9,7 +9,7 @@ export default function Home() {
         dark:bg-black dark:text-white
       `}
     >
-      <p>Pages Router - Hello World</p>
+      <p>App Router - Hello World</p>
 
       <div className={'mt-4'}>
         <ThemeChanger/>
