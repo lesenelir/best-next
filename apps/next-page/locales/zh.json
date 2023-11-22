@@ -3,6 +3,7 @@
     "title": "页面路由 - 你好世界",
     "username": "用户名",
     "password": "密码",
+    "confirmPassword": "确认密码",
     "email": "邮箱",
     "login": "登录"
   }

@@ -3,6 +3,7 @@
     "title": "Page Router - Hello World",
     "username": "Username",
     "password": "Password",
+    "confirmPassword": "ConfirmPassword",
     "email": "Email",
     "login": "Login"
   }
