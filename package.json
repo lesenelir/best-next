@@ -17,5 +17,9 @@
     "App Router"
   ],
   "author": "lesenelir <hi@lesenelir.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.9.2",
+    "typescript": "^5.2.2"
+  }
 }

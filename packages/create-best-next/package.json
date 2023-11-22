@@ -24,9 +24,5 @@
     "best practices"
   ],
   "author": "lesenelir <hi@lesenelir.me>",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^20.9.2",
-    "typescript": "^5.2.2"
-  }
+  "license": "MIT"
 }
