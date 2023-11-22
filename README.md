@@ -18,4 +18,6 @@ Some best practices for Next.js
 -[x] Internation support
 - `next-intl` package
 
--[ ] Form validation
+-[x] Form validation
+- `react-hook-form` package
+- `zod` package

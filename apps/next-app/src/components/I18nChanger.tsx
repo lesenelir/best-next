@@ -10,6 +10,7 @@ export default function I18nChanger() {
     const currentLang = pathname.startsWith('/zh') ? 'zh' : 'en'
     const newLang = currentLang === 'en' ? 'zh' : 'en';
 
+    // BUG
     const newPathname = pathname.replace(/^\/(en|zh)/, `/${newLang}`)
     router.push(newPathname)
   }

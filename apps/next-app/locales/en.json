@@ -1,5 +1,9 @@
 {
   "homepage": {
-    "title": "App Router - Hello World"
+    "title": "App Router - Hello World",
+    "username": "Username",
+    "password": "Password",
+    "email": "Email",
+    "login": "Login"
   }
 }
