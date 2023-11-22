@@ -2,11 +2,13 @@
   "name": "@lesenelir/best-next",
   "version": "0.0.0",
   "description": "Some best practices for Next.js",
+  "type": "module",
+  "packageManager": "pnpm@8.6.12",
   "private": true,
-  "main": "index.js",
   "scripts": {
     "dev:app": "pnpm --filter @lesenelir/next-app dev",
-    "dev:page": "pnpm --filter @lesenelir/next-page dev"
+    "dev:page": "pnpm --filter @lesenelir/next-page dev",
+    "build": "pnpm --filter create-best-next build"
   },
   "keywords": [
     "Next.js",
@@ -15,26 +17,5 @@
     "App Router"
   ],
   "author": "lesenelir <hi@lesenelir.me>",
-  "license": "MIT",
-  "dependencies": {
-    "@hookform/resolvers": "^3.3.2",
-    "next": "14.0.3",
-    "next-intl": "^3.1.2",
-    "next-themes": "^0.2.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-hook-form": "^7.48.2",
-    "zod": "^3.22.4"
-  },
-  "devDependencies": {
-    "@types/node": "^20.9.2",
-    "@types/react": "^18.2.37",
-    "@types/react-dom": "^18.2.15",
-    "autoprefixer": "^10.4.16",
-    "eslint": "^8.54.0",
-    "eslint-config-next": "14.0.3",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.5",
-    "typescript": "^5.2.2"
-  }
+  "license": "MIT"
 }

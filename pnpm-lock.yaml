@@ -65,7 +65,14 @@ importers:
 
   apps/next-page: {}
 
-  packages/create-best-next: {}
+  packages/create-best-next:
+    devDependencies:
+      '@types/node':
+        specifier: ^20.9.2
+        version: 20.9.2
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
 
 packages:
 
