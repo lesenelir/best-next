@@ -11,6 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <NextIntlClientProvider
       locale={router.locale}
+      timeZone={'Asia/Shanghai'}
       messages={pageProps.messages}
     >
       <ThemeProvider>

@@ -1,5 +1,9 @@
 {
   "homepage": {
-    "title": "Page Router - Hello World"
+    "title": "Page Router - Hello World",
+    "username": "Username",
+    "password": "Password",
+    "email": "Email",
+    "login": "Login"
   }
 }
