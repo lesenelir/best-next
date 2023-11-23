@@ -32,9 +32,8 @@ async function init() {
     },
     {
       name: 'overwriteChecker',
-      type: (values: any) => {
-        console.log(values)
-        if (values === false) {
+      type: (values: boolean) => {
+        if (!values) {
           throw new Error(red('✖') + ' Operation cancelled')
         }
         return null
@@ -114,8 +113,6 @@ async function init() {
   // Determine package manager
   const manager = process.env.npm_config_user_agent ?? ''
   const packageManager = /pnpm/.test(manager) ? 'pnpm' : /yarn/.test(manager) ? 'yarn' : 'npm'
-
-  console.log(packageManager, 'packageManager')
 
   const commandsMap = {
     install: {
