@@ -2,18 +2,16 @@
 
 Some best practices for Next.js
 
-
 - pages router
 
 - app router
-
 
 #### App Todos:
 
 - [x] Theme switch support
 
-- Install `next-themes` package to add attributes to the HTML tag.
-- Configure the `tailwind.config` file.
+- Install the `next-themes` package to add attributes to the HTML tag
+- Configure the `tailwind.config` file
 
 - [x] International support
 - `next-intl` package
@@ -21,12 +19,25 @@ Some best practices for Next.js
 - [x] Form validation
 - `react-hook-form` package
 - `zod` package 
-- Client side html standard validation
+- Client-side HTML standard validation
 
 #### Create Best Next App
 
-[//]: # (`pnpm create best-next-app <project name>`)
+Start a new project with the following command:
 
-[//]: # ()
-[//]: # (`npm create best-next`)
+```
+npx create-best-next
+```
+
+```
+npm create best-next@latest
+```
+
+```
+pnpm create best-next
+```
+
+```
+yarn create best-next
+```
 
