@@ -15,7 +15,7 @@ Some best practices for Next.js
 - Install `next-themes` package to add attributes to the HTML tag.
 - Configure the `tailwind.config` file.
 
-- [x] Internation support
+- [x] International support
 - `next-intl` package
 
 - [x] Form validation
@@ -25,5 +25,8 @@ Some best practices for Next.js
 
 #### Create Best Next App
 
-`pnpm create best-next-app <project name>`
+[//]: # (`pnpm create best-next-app <project name>`)
+
+[//]: # ()
+[//]: # (`npm create best-next`)
 

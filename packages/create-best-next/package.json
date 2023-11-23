@@ -9,11 +9,14 @@
     "create-best-next": "./dist/index.js"
   },
   "files": [
-    "dist"
+    "src",
+    "dist",
+    "template"
   ],
   "scripts": {
     "dev": "tsc -w",
-    "build": "tsc -b"
+    "build": "tsc -b",
+    "template": "cp -r ../../apps template/"
   },
   "repository": {
     "type": "git",
@@ -24,5 +27,14 @@
     "best practices"
   ],
   "author": "lesenelir <hi@lesenelir.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "kolorist": "^1.8.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/prompts": "^2.4.9"
+  }
 }
