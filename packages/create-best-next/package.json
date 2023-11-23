@@ -1,6 +1,6 @@
 {
   "name": "create-best-next",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "some best next.js projects",
   "type": "module",
   "main": "./dist/index.js",
